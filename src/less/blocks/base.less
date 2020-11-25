@@ -1,0 +1,40 @@
+@import '../fonts/fonts.less';
+.reset();
+
+.wrapper{
+    .wrapper();
+}
+
+.scrollbar(@color_scrollbar-track, @color_scrollbar-thumb);
+
+@font-face {
+  .font(@font; @fontBold);
+}
+@font-face {
+  .font(@font; @fontRegular);
+}
+
+@font-face {
+  .font(@VWHeadlineOT; "@{VWHeadlineOT}-Black");
+}
+
+@font-face {
+  .font(@arial; "@{arial}-Regular");
+}
+
+body {
+  font-family: @fontRegular;
+  background-color: black;
+}
+a, button{
+  cursor: pointer;
+  &:focus{
+      outline: none;
+  }
+}
+input{
+  cursor: text;
+  &:focus{
+      outline: none;
+  }
+}

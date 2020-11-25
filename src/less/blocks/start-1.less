@@ -1,0 +1,184 @@
+.start-1 {
+    padding-bottom: 20px;
+    background-image: url("../assets/img/bg-start.png");
+    background-size: cover;
+    
+    
+    background-repeat: no-repeat;
+    max-width: 100%;
+    .xxs-block ({
+        padding-bottom: 30px;
+    });
+
+    &-logo {
+        position: relative;
+    }
+
+    &-logo::before {
+        content: '';
+        position: absolute;
+        top: 110px;
+        left: 0px;
+        display: inline-block;
+        width: 300px;
+        height: 5px;
+        background-color: #fff;
+        .xxs-block ({
+            width: 110px;
+        });
+    }
+
+    &-logo::after {
+        content: '';
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        display: inline-block;
+        width: 300px;
+        height: 5px;
+        background-color: #fff;
+        .xxs-block ({
+            width: 110px;
+        });
+    }
+
+
+    &-container {
+        display: flex;
+        &-description {
+            font-family: '@{VWHeadlineOT}-Black';
+            padding-top: 345px;
+            width: 60%;
+            .xxs-block ({
+                padding-top: 200px;
+                .page__subtitle, .page__text {
+                    font-size: 35px;
+                }
+            });
+        }
+
+        .page__btn {
+            margin-left: 30px;
+            .xxs-block ({
+                font-size: 20px;
+            });
+        }
+
+        .page__subtitle {
+            width: 70%;
+
+
+            .xxs-block ({
+                
+            });
+            
+        }
+    
+        .page__text {
+    
+            width: 95%;
+            padding-bottom: 40px;
+        }
+
+        &-functional {
+            padding-top: 396px;
+            .xxs-block ({
+                padding-top: 255px;
+            });
+
+            &__micro {
+                
+                background-color: #00b1f2;
+                border-radius: 50%;
+                width: 110px;
+                padding: 30px 4px;
+                margin-bottom: 30px;
+                
+                text-align: center;
+                position: relative;
+                left: 160px;
+
+                .xxs-block ({
+                    left: 0;
+                });
+                
+                svg {
+                    
+                    fill: #fff;
+                    
+                    //border-radius: 50%;
+                    width: 80px;
+                    height: 50px;
+                    
+                }
+                
+            }
+
+            &__next {
+                background-color: #00b1f2;
+                border-radius: 50%;
+                width: 58px;
+                height: 55px;
+                position: relative;
+                left: 210px;
+
+                .xxs-block ({
+                    left: 50px;
+                });
+            }
+
+            &__next::before {
+                content: '';
+                width: 20px;
+                height: 5px;
+                color: #fff;
+                display: inline-block;
+                position: absolute;
+                background-color: #fff;
+                top: 20px;
+                right: 16px;
+                transform: rotate(45deg);
+            }
+
+            &__next::after {
+                content: '';
+                width: 20px;
+                height: 5px;
+                color: #fff;
+                display: inline-block;
+                position: absolute;
+                background-color: #fff;
+                top: 32px;
+                right: 16px;
+                transform: rotate(-45deg);
+            }
+
+            &__img {
+                padding-bottom: 40px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    &-logo {
+        display: block;
+        text-align: center;
+        padding-top: 55px;
+    }
+
+    &__footer {
+        padding-left: 25px;
+        padding-top: 35px;
+        font-family: "@{arial}-Regular";
+        font-size: 18px;
+        color: #fff;
+        .xxs-block ({
+            font-size: 15px;
+        });
+
+    }
+
+    
+
+    
+}
